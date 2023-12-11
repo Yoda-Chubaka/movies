@@ -14,8 +14,8 @@ export const SearchbarStyle = styled.header`
   padding-top: 12px;
   padding-bottom: 12px;
   color: #fff;
-  border-top: 2px solid blue;
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(61,61,62,1) 52%, rgba(0,212,255,1) 100%);
+  background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(61,61,62,1) 52%, rgba(0,212,255,1) 100%);
   box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
     0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 `;

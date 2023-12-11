@@ -6,6 +6,7 @@ padding: 20px;
 display: flex;
 flex-direction: column;
 gap: 20px;
+color: #fff;
 background-color: #101010;
 `
 
@@ -14,7 +15,7 @@ export const StyledLink = styled(Link)`
   font-weight: 700;
   padding: 6px;
   text-align: center;
-  border: 1px solid #770737;
+  border: 1px solid #000C66;
   width: 100px;
   &.active {
     cursor: pointer;
@@ -22,7 +23,7 @@ export const StyledLink = styled(Link)`
   
   &:hover, &:focus {
     border-radius: 4px;
-    background-color: #770737;
+    background-color: #000C66;
     color: #fff;
   }
 `;
@@ -45,7 +46,7 @@ flex-direction: column;
 gap: 10px;
 font-weight: 500;
 text-decoration: underline;
-color: #fff;;
+color: #000;
 &.active {
     cursor: pointer;
     color: #000;
@@ -56,3 +57,5 @@ color: #fff;;
     color: #000;
   }
 `;
+
+

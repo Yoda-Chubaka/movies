@@ -23,4 +23,5 @@ export const WrapCardStyle = styled.div`
     display: flex;
     gap: 5px;
     flex-direction: column;
+    color: #fff;
 `
