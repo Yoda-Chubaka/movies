@@ -1,4 +1,4 @@
-import { Loader } from "components/Loader/Loader";
+import { Loader } from "components/Loader/Loader"
 import MoviesList from "components/MoviesList/MoviesList";
 import Searchbar from "components/Search/Search";
 import { Notify } from "notiflix";

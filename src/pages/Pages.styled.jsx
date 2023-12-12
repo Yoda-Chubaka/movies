@@ -6,6 +6,7 @@ padding: 40px;
 display: flex;
 flex-direction: column;
 gap: 20px;
+height: 100vw;
 color: #fff;
 background-color: #101010;
 `
