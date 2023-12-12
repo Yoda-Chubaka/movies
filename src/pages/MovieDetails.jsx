@@ -2,7 +2,7 @@ import { Loader } from "components/Loader/Loader";
 import { Suspense, useEffect, useRef, useState } from "react";
 import { Link, Outlet, useLocation, useParams } from "react-router-dom";
 import { fetchMovieDetails, onFetchError } from "services/api";
-import { AddListStyle, CardStyle, SectionStyle, StyledLink, WrapStyle } from "./Pages.styled";
+import { AddListStyle, CardStyle, SectionStyle, StyledLink, WrapStyle, LiStyle } from "./Pages.styled";
 
 const endPoint = '/movie';
 
@@ -50,13 +50,12 @@ const MovieDetails = () => {
             </WrapStyle>
             <h3>Additional information:</h3>
             <AddListStyle>
-                
                 <li>
-                    <Link to="cast">Cast</Link>
+                    <Link to="cast"><LiStyle>Cast</LiStyle></Link>
                 </li>
                 
                 <li>
-                    <Link to="reviews">Reviews</Link>
+                    <Link to="reviews"><LiStyle>Reviews</LiStyle></Link>
                 </li>
             </AddListStyle>
             <Suspense fallback={<div>Loading...</div>}>

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import {Link} from "react-router-dom";
 
 export const SectionStyle = styled.section`
-padding: 20px;
+padding: 40px;
 display: flex;
 flex-direction: column;
 gap: 20px;
@@ -45,17 +45,18 @@ display: flex;
 flex-direction: column;
 gap: 10px;
 font-weight: 500;
-text-decoration: underline;
-color: #000;
+`;
+
+export const LiStyle = styled.a`
+color: #fff;
 &.active {
     cursor: pointer;
-    color: #000;
+    text-decoration: underline;
+  
   }
   
   &:hover, &:focus {
+    text-decoration: underline;
     
-    color: #000;
   }
-`;
-
-
+`
